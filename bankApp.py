@@ -7,7 +7,7 @@ login_types = ["admin", "user", "guest"]
 # program says “You have limited privileges.”
 # For “guest”:
 # program says “You have no privileges.”
-def gatekeeper(login):
+def gatekeeper(login, account_age):
   if login == "admin":
     return "You have the privileges"
 
