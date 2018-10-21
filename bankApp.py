@@ -4,6 +4,8 @@ login_types = ["admin", "user", "guest"]
 # For “admin”:
 # program says “You have the privileges.”
 # For “user”:
+# For "user account_age of at least 7 days":
+# program says: "You have limited privileges"
 # program says “You have limited privileges.”
 # For “guest”:
 # program says “You have no privileges.”
